@@ -36,6 +36,6 @@ def printText(df):
 
 
 
-FILE_NAME = 'vishyOneCard.jpg'
+FILE_NAME = 'wellsFargoCard.jpg'
 FOLDER_PATH = r'/Users/vishalkasula/Desktop/PythonVenv/VisionAPIDemo/images/text/'
 printText(detectText(os.path.join(FOLDER_PATH, FILE_NAME)))
